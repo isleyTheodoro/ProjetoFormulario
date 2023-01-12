@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Módulos</title>
+
+    <link rel="stylesheet" href="https://cdn.es.gov.br/fonts/font-awesome/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <!--INICIO DO TOPO CABEÇALHO E MENU DE NAVEGAÇÃO-->
+        <div id="container_Nav-principal">
+
+            <section id="topo_cabecalho">
+                <img class="img_cabecalho" src="./img/img-logo-topo.jpeg" alt="img-topo">
+                <div class="cabecalho_color">
+                    <p>Sistema de Módulo</p>
+                    <h1>Cadastro de Clientes</h1>
+                </div>
+            </section>
+
+            <nav id="menu_nav_topo">
+                <!--MENU DE NAVEGAÇÃO PRINCIPAL-->
+                <ul class="nav">
+                    <li>
+                        <div class="botao">
+                            <img src="./img/procurar (1).png" alt="">
+                            <a href="">
+                                Localizar Cliente Cadastrado
+                            </a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="botao">
+                            <img src="./img/mais (1).png" alt="">
+                            <a href="">
+                                Salvar
+                            </a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="botao">
+                            <img src="./img/seta-para-cima.png" alt="">
+                            <a href="">
+                                Limpar
+                            </a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="botao">
+                            <img src="./img/cancelar.png" alt="">
+                            <a href="">
+                                Excluir
+                            </a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="botao">
+                            <img src="./img/prancheta.png" alt="">
+                            <a href="">
+                                Relatórios
+                            </a>
+                        </div>
+                    </li>
+
+                </ul>
+            </nav> <!-- FIM DO MENU NE NAVEGAÇÃO PRINCIPAL -->
+
+        </div>
+    </header> <!-- FIM DO DO TOPO CABEÇALHO E MENU DE NAVEGAÇÃO -->
+
+
+    <div id="container-secundario">
+        <nav class="menu-secundario">
+            <ul>
+                <li class="botao-menu-secundario">
+                    <input type="button" value="Dados do Cliente">
+                </li>
+                <li class="botao-menu-secundario">
+                    <input type="button" value="Histórico">
+                </li>
+                <li class="botao-menu-secundario">
+                    <input type="button" value="Anexos">
+                </li>
+            </ul>
+        </nav>
+
+        <div class="divisao"></div><!-- div apenas para fazer uma divisao -->
+
+        <div class="imputs-1">
+            <p>Código Matrícula
+                <input class="input-matricula" type="text" name="" id="" placeholder="Digite sua Matrícula">
+                <a class="auto-sequencial" href=""> ( Auto Sequêncial )</a>
+            </p>
+
+            <span>Nome
+                <input class="input-nome" type="text" name="" id="" placeholder="Digite seu nome">
+            </span>
+
+            <span>Data Nascimento
+                <input class="input-Nasc" type="date" name="" id="">
+            </span>
+
+
+            <span>
+                <ul class="imprimir-ficha">
+                    <li>
+                        <img class="img-imprimir-ficha" src="./img/forma.png" alt="">
+                        <a href="">Imprimir Ficha Cliente</a>
+                    </li>
+                </ul>
+            </span>
+        </div>
+
+        <span class="divisao2"></span><!-- div apenas para fazer uma divisao -->
+
+        <span class="divisao-3">Foto 3x4</span>
+        
+        
+           
+        <span>
+            <img id="foto-lateral" src="./img/foto-mulher-lateral.jpeg" alt="">
+            
+            <span id="icons-foto-lateral"> 
+                <a href="">
+                    <img class="icon-do-lado-da-foto-lateral" src="./img/mais (1).png" alt="">
+                </a>
+                
+
+                <a href="">
+                    <img class="icon-do-lado-da-foto-lateral2" src="./img/cancelar.png" alt="">
+                </a>
+                
+                
+            </span>
+        </span>
+
+        
+        <div id="formulario">
+         
+            <form>
+
+                <label>CEP
+                    <input class="input-cep" type="number" placeholder="00000-000">
+                </label>
+                <label>Cidade
+                    <input class="input-cidade" type="text" name="" id="" placeholder="EX: São Paulo">
+                </label>
+                <label>Bairro
+                    <input class="input-bairro" type="text" name="" id="" placeholder="EX: Bela Vista">
+                </label>
+
+                <br>
+
+
+                <label>Endereço
+                    <input class="input-endereco" type="text" name="" id="" placeholder="EX: Av. Paulista">
+                </label>
+                <label>Número
+                    <input class="input-numero" type="number" name="" id="" placeholder="EX: 000">
+                </label>
+                <label>UF
+                    <select class="uf">
+                        <option value="" selected="selected"><strong>Selecione</strong></option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                        <option value="DF">Distrito Federal</option>
+                    </select>
+                </label>
+
+                <br>
+
+                <label>Complemento
+                    <input class="input-complemento" type="text" name="" id="" placeholder="De 1512 a 2132 - lado par">
+                </label>
+
+                <br>
+
+                <label> Tel. Celular
+                    <input class="input-celular" type="number" name="" id="" placeholder="EX: (00) 0-0000-0000">
+                </label>
+
+                <label>Telefone Residencial
+                    <input class="input-celular" type="number" name="" id="" placeholder="EX: (00) 0000-0000">
+                </label>
+
+                <label>Telefone Comercial
+                    <input class="input-celular" type="number" name="" id="" placeholder="EX: (00) 0000-0000">
+                </label>
+
+                <br>
+
+                <label> Tel. Celular 2
+                    <input class="input-celular2" type="number" name="" id="" placeholder="EX: (00) 0-0000-0000">
+                </label>
+
+                <label>Grupo do Cliente
+                    <select class="grupo-do-cliente">
+                        <option value="" selected="selected"><strong>Geral</strong></option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                        <option value="DF">Distrito Federal</option>
+                    </select>
+                </label>
+
+                <label><img class="reload" src="./img/reuse.png" alt=""></label>
+
+                <br>
+                <div class="grupo-de-dados">
+                    <label>CPF
+                        <input class="documentos-cpf" type="number" name="" id="" placeholder="EX: 000.000.000-00">
+                    </label>
+
+                    <label>RG
+                        <input class="documentos-rg" type="number" name="" id="" placeholder="EX: 0000000000">
+                    </label>
+
+                    <label>CNPJ
+                        <input class="documentos-cnpj" type="number" name="" id="" placeholder="EX: 00.000.000/0000-00">
+                    </label>
+
+                    <label>Ins.Est.
+                        <input class="documentos-ins-est" type="number" name="" id="" placeholder="EX: 0000000">
+                    </label>
+                </div>
+
+                <span class="divisao4"></span><!-- div apenas para fazer uma divisao -->
+
+                <br>
+                <label>Site
+                    <input class="input-site" type="text" name="" id="" placeholder="EX: www.site.com.br">
+                </label>
+                <label>e-mail
+                    <input class="input-email" type="email" name="" id="" placeholder="EX:email@email.com.br ">
+                </label>
+                <label class="bot">
+                    <input class="input-bot-complemento" type="button" value="Complemento >>">
+                </label>
+
+                <br>
+
+                <label class="textarea">
+                    <textarea name="" id="textarea" cols="167" rows="10"
+                        placeholder="informe aqui dados importantes sobre o cliente."></textarea>
+                </label>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>

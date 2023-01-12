@@ -1,0 +1,310 @@
+/* cor de fundo da barra de navegação #65AED1
+    cor da font (auto sequencial) #CAE1DE
+    cor da font CEP #5F7492
+    cor de fundo do botao ( imprimir ficha) #D0FBD3
+*/
+
+/*================================= FORMATAÇÕES GERAIS ===============================================*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    min-width: 1280px;
+    background-color: #FFFEFD;
+    
+}
+
+/*==========================   INICIO DO TOPO  IMG E CABEÇALHO ( HEADER)  ========================================*/
+
+header {
+    width: 100%;
+    height: 110px;
+    background-color: #65AED1;
+}
+
+#container_Nav-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#topo_cabecalho {
+    display: flex;
+}
+
+#topo_cabecalho p, h1 {
+    color: rgba(255, 255, 255, 0.719) !important;
+    padding-top: 8px;
+}
+
+.img_cabecalho {
+    border: 1px solid rgba(255, 255, 255, 0.445);
+    width: 70px;
+    height: 65px;
+    margin: 15px;
+}
+.cabecalho_color{
+    margin-top: 13px;
+}
+/* ===============================  INICO MENU DE NAVEGAÇÃO  DO TOPO  (HEADER) ================================= */
+#menu_nav_topo{
+    background-color:#65AED1;
+    display: flex;
+    align-items: flex-end;
+}
+#menu_nav_topo, ul, li{
+    display: inline-block;
+    list-style: none;
+}
+#menu_nav_topo, a{
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+    margin: 10px;
+    font-weight: 600;
+}
+.botao{
+    background-color: #F4FEFE;
+    border-radius: 3px;
+    box-shadow: -1px -0.1px  2px #29586d;
+    padding: 5px;
+    margin: 0px 5px 13px 0px;
+    
+}
+.botao, a{
+    padding-bottom: 10px;
+    height: 20px;
+    line-height: 20px;
+}
+.botao, img{
+    padding-left: 5px;
+}
+/*==========================   FIM DO TOPO  * NAVEGAÇÃO*   E DO  *CABEÇALHO*  ========================================*/
+
+
+#container-secundario{
+    margin-top: 5px;
+    border-bottom: 1px solid #ECEDE9;
+    border-left: 1px solid #ECEDE9;
+    border-right: 1px solid #ECEDE9;
+    width: 98%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.menu-secundario{
+    border-bottom: 1px solid #ECEDE9;
+    width: 98%;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.botao-menu-secundario{
+    margin: 0;
+    padding: 0;
+    background-color: #f1f0ee70;
+    border-right: 1px solid #ECEDE9;
+    border-top: 1px solid #ECEDE9;
+    border-bottom:1px solid #ECEDE9 ;
+}
+nav .menu-secundario, input{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+    padding: 2px;
+}
+.divisao{
+    margin-top: 10px;
+    background-color:#eff0ee;
+    height: 15px;
+}
+.divisao2{
+    margin-top: 10px;
+    margin-bottom: 0;
+    width: 1043px;
+    display: inline-block;
+    background-color:#eff0ee;
+    height: 15px;
+}
+span.divisao-3{
+    margin-top: 5px;
+    margin-left: 3px;
+    margin-bottom: 10px;
+    width: 190px;
+    color: #9ca8a6;
+    text-align: center;
+    display: inline-block;
+    background-color:#eff0ee;
+    height: 15px;
+    font-size: 14px;
+}
+.divisao4{
+    display: inline-block;
+    margin-top: 10px;
+    background-color:#eff0ee;
+    height: 15px;
+    width: 100%;
+}
+
+/*=========================== imputs-1 ==================================*/
+div .imputs-1,span, p{
+    color: black;
+    padding-left: 5px;
+}
+.imputs-1{
+    border-bottom: 1px solid #ECEDE9 ;
+}
+.input-matricula{
+    margin-left: 50px;
+}
+.input-nome{
+    width: 560px;
+    margin-top: 20px;
+    line-height: 20px;
+    margin-left: 125px;
+}
+.imprimir-ficha{
+    font-weight: normal;
+    background-color:  #D0FBD3;
+    border: 1px solid #a5b8b4;
+    height: 25px;
+    margin-bottom: 5px;
+}
+.imprimir-ficha:hover{
+    background-color:#aef7b2 ;
+}
+.img-imprimir-ficha{
+    width: 20px;
+    height: 16px;
+    line-height: 19px;
+   
+}
+.imprimir-ficha, a{
+    line-height: 30px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: normal;
+}
+.auto-sequencial{
+    padding-right: 0;
+    padding-left: 0;
+    color: #bde6e0;
+}
+input{
+    height: 23px;
+}
+::placeholder{
+    padding-left: 3px;
+    color: #3d3d3d;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+form input{
+   margin-left: 30px;
+}
+.input-cep{
+    width: 167px;
+    margin-left: 75px;
+    margin-bottom: 10px;
+}
+.input-cidade{
+    width: 300px;
+    margin-left: 16px;
+}
+.input-endereco{
+    width: 550px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.input-numero{
+    width: 70px;
+    margin-left: 16px;
+}
+.uf{
+    width: 90px;
+    background-color:#E1E1E1 ;
+}
+.input-complemento{
+    width: 66%;
+    margin-left: 10px;
+}
+.input-celular{
+    margin-top: 10px;
+    width: 150px;
+}
+.input-celular2{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.grupo-do-cliente{
+    width: 460px;
+    height: 30px;
+    margin-left: 20px;
+    background-color:#E1E1E1 ;
+}
+.reload{
+    cursor: pointer;
+}
+.grupo-de-dados{
+    border-bottom: 1px solid #ECEDE9;
+}
+.documentos-cpf{
+    margin-top: 10px;
+    margin-left: 76px;
+    
+}
+.documentos-cnpj{
+    margin-left: 10px;
+    width: 135px;
+}
+.documentos-ins-est{
+    margin-left: 10px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+.input-site{
+    margin-left: 80px;
+    width:400px ;
+}
+.input-email{
+    width: 400px;
+}
+.input-bot-complemento{
+    width: 190px;
+    height: 30px;
+    padding-left: -100 !important;
+    margin-bottom: 10px;
+    background-color: #68ACCE;
+    color: white;
+    cursor: pointer;
+}
+.input-bot-complemento:hover{
+    background-color: #00557c;
+}
+textarea{
+    font-size: 20px;
+}
+#foto-lateral{
+    float: right;
+    width: 200px;
+}
+
+.icon-do-lado-da-foto-lateral{
+    float: right;
+    padding: 5px;
+    background-color: #E1E1E1 ;
+}
+.icon-do-lado-da-foto-lateral2{
+    margin-top: 40px;
+    margin-right: -25px;
+    float: right;
+    padding: 5px;
+    background-color: #E1E1E1 ;
+    
+}
+
+
